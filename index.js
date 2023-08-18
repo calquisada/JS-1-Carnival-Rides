@@ -2,7 +2,7 @@
 let greenWireConnected = true
 let yellowWireConnected = true
 let redWireConnected = true
-let waterIsEmpty = false
+let waterIsOn = true
 
 //Everything below is fair game for you to power on the rides
 
@@ -26,7 +26,7 @@ if (greenWireConnected & yellowWireConnected) {
     // water is on 
     // yellow wire is not connected
 let ride3PowerOn = false
-if (greenWireConnected & redWireConnected & !waterIsEmpty){
+if (greenWireConnected & redWireConnected & waterIsOn){
     ride3PowerOn = true
 }
 
